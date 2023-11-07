@@ -82,6 +82,6 @@ sudo systemctl enable containerd.service
 rm -rf "$Tmp_Dir"
 
 # Inform the user about manual steps
-echo "Docker installation complete."
+echo "Installation complete."
 echo "Please logout and login again before using Docker to apply group changes."
 echo "Please download Docker Desktop from https://docs.docker.com/desktop/install/ubuntu/ and then run sudo apt
