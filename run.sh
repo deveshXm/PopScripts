@@ -150,3 +150,5 @@ echo "|                RESTART YOUR SYSTEM                                  |"
 echo "-----------------------------------------------------------------------"
 
 read -n 1 -s -r -p "Press any key to EXIT"
+
+cd ~/ && rm -rf PopScripts

@@ -12,7 +12,7 @@ Effortless way to setup your fresh Ubuntu and Pos_Os! installation.
 Run the script as **root**.
 
 ```console
-
+cd ~/ && git clone https://github.com/deveshXm/PopScripts.git && cd PopScripts && chmod +x ./run.sh && ./run.sh
 ```
 
 ## Supported Distributions
