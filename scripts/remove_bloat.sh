@@ -80,7 +80,3 @@ sudo apt-get autoclean || { echo "Failed to autoclean packages, exiting." >&2; e
 sudo apt-get clean || { echo "Failed to clean packages, exiting." >&2; exit 1; }
 
 # End of Script
-
-# Display Installation Complete Message
-echo "All good now :)"
-echo "Please, restart the computer, backup your system using Timeshift (if you installed it and want to) and then run the 2nd Script to install all your Apps."

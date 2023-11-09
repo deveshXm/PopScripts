@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# System Update and Upgrade Script
-
+# Install essential packages
+sudo apt-get install -y curl wget git software-properties-common vim ca-certificates gnupg
 # System Update and Upgrade
 sudo apt update
 sudo apt install --fix-missing -y
@@ -22,6 +22,4 @@ sudo apt autoremove -y
 sudo apt autoclean
 sudo apt clean
 
-# End of Script
-echo "All good now :)"
-echo "Please, restart the computer."
+echo "Updated"
