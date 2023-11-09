@@ -9,8 +9,6 @@ Effortless way to setup your fresh Ubuntu and Pos_Os! installation.
 
 ### 1. Run this script
 
-Run the script as **root**.
-
 ```console
 cd ~/ && git clone https://github.com/deveshXm/PopScripts.git && cd PopScripts && chmod +x ./run.sh && ./run.sh
 ```
@@ -40,26 +38,26 @@ Also handles adding several tweaks and fixes necessary to add repositories and P
 You can choose to download from these applications and let the script do it's work!
 
 - ### Browsers
-    1. Microsoft Edge
-    2. Google Chrome
-    3. Brave 
+    - Microsoft Edge
+    - Google Chrome
+    - Brave 
 
 - ### Tools & Applications
-    1. Python
-    2. Java 11
-    3. Java 17 
-    4. NVM (Node LTS)
-    5. Android Studio
-    6. Snap
-    7. VS Code 
-    8. Docker Engine
-    9. VLC
-    10. Vim
+    - Python
+    - Java 11
+    - Java 17 
+    - NVM (Node LTS)
+    - Android Studio
+    - Snap
+    - VS Code 
+    - Docker Engine
+    - VLC
+    - Vim
 
 - ### Theme
-    1. Graphite Theme
-    2. Kora Icon Theme
-    3. Oh My Posh! Terminal Theme
+    - Graphite Theme
+    - Kora Icon Theme
+    - Oh My Posh! Terminal Theme
 
 ## Contributing
 
