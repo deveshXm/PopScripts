@@ -115,39 +115,11 @@ fi
 # EXIT
 clear
 
-echo "----------------------------------------------------------------------"
-echo "|               POST INSTALLATION GUIDE                               |"
-echo "-----------------------------------------------------------------------"
-if [ "$theme" = "y" ] || [ "$theme" = "Y" ]; then
-  echo "|1. Enable Graphite Theme :                                         |"
-  echo "|   - Install browser extension https://extensions.gnome.org/       |"
-  echo "|   - Open Extensions (Desktop App) -> Install User Themes          |"
-  echo "|   - Open Tweaks -> Appearance                                     |"
-  echo "|   - Open Tweaks -> Appearance                                     |"
-  echo "|   - Change Applications -> Graphite Dark                          |"
-  echo "|   - Change Shell -> Graphite Dark                                 |"
-  echo "---------------------------------------------------------------------"
-fi
-if [ "$icon" = "y" ]  || [ "$icon" = "Y" ]; then
-  echo "|1. Enable Icon Theme :                                             |"
-  echo "|   - Open Tweaks -> Appearance                                     |"
-  echo "|   - Change Icons -> Kora                                          |"
-  echo "---------------------------------------------------------------------"
-fi
-if [ "$omposh" = "y" ] || [ "$omposh" = "Y" ]; then
-  echo "|1. Oh My Posh :                                                    |"
-  echo "|   - It will already be enabled but you need to change font        |"
-  echo "|   - Open Terminal -> Preferences -> Profiles                      |"
-  echo "|   - Change custom font to JetBrainsMono Nerd Font                 |"
-  echo "|   - You can checkout more fonts at nerdfonts.com                  |"
-  echo "|   - You can checkout more themea at ohmyposh.com                  |"
-  echo "---------------------------------------------------------------------"
-fi
-
-echo "|                 YOU'RE GOOD TO GO!                                  |"
-echo "-----------------------------------------------------------------------"
-echo "|                RESTART YOUR SYSTEM                                  |"
-echo "-----------------------------------------------------------------------"
+echo "-------------------------------------------------------"
+echo "|                   YOU'RE GOOD TO GO!                |"
+echo "-------------------------------------------------------"
+echo "|                  RESTART YOUR SYSTEM                |"
+echo "-------------------------------------------------------"
 
 read -n 1 -s -r -p "Press any key to EXIT"
 

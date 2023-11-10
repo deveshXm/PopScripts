@@ -14,3 +14,5 @@ sudo cp JetBrainsMono/*.ttf /usr/local/share/fonts/
 sudo fc-cache -fv
 rm -rf JetBrainsMono.zip 
 rm -rf JetBrainsMono
+
+gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:$(gsettings get org.gnome.Terminal.ProfilesList default | awk -F\' '{print $2}')/ font 'JetBrainsMono Nerd Font Regular 12'
